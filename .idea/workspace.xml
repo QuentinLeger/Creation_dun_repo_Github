@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0cb0f064-6da2-4ecd-b865-310ab64e1d44" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Creation repo Github/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creation repo Github/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creation repo Github/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creation repo Github/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creation repo Github/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creation repo Github/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creation repo Github/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creation repo Github/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creation repo Github/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creation repo Github/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creation repo Github/src/main/java/com/example/creationrepogithub/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creation repo Github/src/main/java/com/example/creationrepogithub/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creation repo Github/src/main/java/com/example/creationrepogithub/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creation repo Github/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creation repo Github/src/main/resources/com/example/creationrepogithub/hello-view.fxml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "QuentinLeger"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/QuentinLeger/Creation_dun_repo_Github",
+    "accountId": "65f73503-d458-4f64-adf3-16305d5d158e"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="3CUCQoEdfHnGoFwgy6K4RrXBmPF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/atomi/OneDrive/Bureau/Informatique/Perso/Portfolio/Creation_dun_repo_Github",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cb0f064-6da2-4ecd-b865-310ab64e1d44" name="Changes" comment="" />
+      <created>1776430747747</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776430747747</updated>
+      <workItem from="1776430749006" duration="103000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

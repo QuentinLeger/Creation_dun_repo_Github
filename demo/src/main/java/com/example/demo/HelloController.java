@@ -49,4 +49,29 @@ public class HelloController {
             e.printStackTrace();
         }
     }
+
+    @FXML
+    public void onCreateProjectAPI(){
+        try {
+
+            GitHubService gitHub = new GitHubService("");
+
+            int response = gitHub.createRepository(
+                    repoNameField.getText(),
+                    descriptionField.getText(),
+                    false
+            );
+
+            System.out.println("Github API response :" + response);
+
+            if (response == 201){
+                System.out.println("Repo crée sur github !");
+            }
+            else {
+                System.out.println("Erreur API Github: " + response);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }

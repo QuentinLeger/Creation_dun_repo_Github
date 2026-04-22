@@ -36,7 +36,7 @@
 
     <!-- Bouton -->
     <Button text="Créer le projet"
-            onAction="#onCreateProject"
+            onAction="#onCreateProjectAPI"
             style="-fx-background-color: #3c3c3c; -fx-text-fill: white; -fx-padding: 10 20;" />
 
 </VBox>

@@ -3,6 +3,7 @@ package com.example.demo;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.stage.DirectoryChooser;
 
 import java.io.File;
 import java.nio.file.Files;
@@ -24,6 +25,9 @@ public class HelloController {
 
     @FXML
     private TextField readmeField;
+
+    @FXML
+    private String repoUrl = "https://github.com/QuentinLeger/";
 
     @FXML
     public void runCommand(String command, File directory) throws Exception{
@@ -54,7 +58,7 @@ public class HelloController {
     public void onCreateProjectAPI(){
         try {
 
-            GitHubService gitHub = new GitHubService("");
+            GitHubService gitHub = new GitHubService("YOUR TOKEN");
 
             int response = gitHub.createRepository(
                     repoNameField.getText(),
@@ -69,7 +73,31 @@ public class HelloController {
             }
             else {
                 System.out.println("Erreur API Github: " + response);
+                return;
             }
+
+            cloneRepo();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    @FXML
+    public void cloneRepo() {
+        try {
+            DirectoryChooser chooser = new DirectoryChooser();
+            chooser.setTitle("Choisir un dossier de destination");
+            File destination = chooser.showDialog(null);
+
+            if (destination == null) {
+                System.out.println("Aucun dossier choisi");
+                return;
+            }
+            String repoUrl = "https://github.com/QuentinLeger/" + repoNameField.getText() + ".git";
+            runCommand("git clone " + repoUrl, destination);
+
+            System.out.println("Repo cloné dans " + destination.getAbsolutePath());
         } catch (Exception e) {
             e.printStackTrace();
         }

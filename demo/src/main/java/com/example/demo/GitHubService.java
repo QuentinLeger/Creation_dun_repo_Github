@@ -16,12 +16,12 @@ public class GitHubService {
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 
         connection.setRequestMethod("POST");
-        connection.setRequestProperty("Authorization","Bearer" + token);
+        connection.setRequestProperty("Authorization","Bearer " + token);
         connection.setRequestProperty("Accept","application/vnd.github+json");
         connection.setRequestProperty("Content-Type", "application/json");
         connection.setDoOutput(true);
 
-        String json = """
+        String json = """ 
         {
             "name": "%s",
                 "description": "%s",

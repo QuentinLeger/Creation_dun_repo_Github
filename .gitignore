@@ -1,0 +1,19 @@
+# IntelliJ
+.idea
+.iml
+
+# Java
+.class
+.jar
+.war
+.ear
+.log
+
+# Maven  Gradle
+target
+out
+build
+
+# OS
+.DS_Store
+Thumbs.db

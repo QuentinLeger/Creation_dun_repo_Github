@@ -13,8 +13,9 @@ Maven (si tu veux lancer avec mvn)
 !!! Un token GitHub (non stocké dans le code) !!!
 
 ## 🚀 Installation
-bash
+
 git clone https://github.com/QuentinLeger/Creation_dun_repo_Github.git
+
 cd Creation_dun_repo_Github
 ## 🛠️ Utilisation
 ### Lancer l’application
